@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Eetu Hirvonen",
+  "license": "ISC",
+  "description": "Server for REST API",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mariadb": "^3.3.2"
+  }
+}
